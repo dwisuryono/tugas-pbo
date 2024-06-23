@@ -8,6 +8,7 @@ package informasikegiatankeagamaan;
 import rinciankegiatan.*;
 import crud.*;
 import java.util.Scanner;
+import gui.frameUtama;
 
 /**
  *
@@ -53,7 +54,7 @@ public class InformasiKegiatanKeagamaan {
 //        System.out.println("Alamat Mubaligh             : " + inputKegiatan.getAlamat());
 //        System.out.println("Umur Mubaligh               : " + inputKegiatan.getUmur());
 
-        Database dbConnect = new Database();
+//        Database dbConnect = new Database();
 //        dbConnect.simpanUji("2310010691", "Dwi Suryono", "081211110000", "Jl. Pramuka");
 //        dbConnect.ubahUji("2310010690", "Budianto", "085699990000", "dsadjalsj");
 //        dbConnect.cariUji("2310010690");
@@ -87,6 +88,8 @@ public class InformasiKegiatanKeagamaan {
 //        dbConnect.hapusKota(2);
 //        dbConnect.cariKota(1);
 //        dbConnect.dataKota();
+
+        new frameUtama().setVisible(true);
                 
     }
     
